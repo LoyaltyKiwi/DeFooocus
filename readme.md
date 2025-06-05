@@ -38,7 +38,11 @@ This is just a fork (and a fork of forks), we are not the authors of this creati
 
 ---
 
+### Colab
 
+| Colab | Info
+| --- | --- |
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LoyaltyKiwi/DeFooocus/blob/main/DeFooocus_colab.ipynb) | My DeFooocus Official
 
 
 DeFooocus is an image generating software (based on [Gradio](https://www.gradio.app/)).
@@ -160,12 +164,6 @@ See also the common problems and troubleshoots [here](troubleshoot.md).
 OR
 
 Windows: download the [7z file](#download), extract it and run `run.bat`. You may want to copy over already downloaded checkpoints / LoRAs / etc.
-
-### Colab
-
-| Colab | Info
-| --- | --- |
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LoyaltyKiwi/DeFooocus/blob/main/DeFooocus_colab.ipynb) | My DeFooocus Official
 
 
 ### Linux (Using Anaconda)
