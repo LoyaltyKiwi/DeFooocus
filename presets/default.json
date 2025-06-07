@@ -1,53 +1,36 @@
 {
-    "default_model": "FluentlyXL-v4.safetensors",
-    "default_refiner": "None",
-    "default_refiner_switch": 0.5,
-    "default_loras": [
-        [
-            "sd_xl_offset_example-lora_1.0.safetensors",
-            0.1
-        ],
-        [
-            "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
-        ]
-    ],
-    "default_cfg_scale": 4.0,
-    "default_sample_sharpness": 2.0,
-    "default_sampler": "dpmpp_2m_sde_gpu",
-    "default_scheduler": "karras",
-    "default_performance": "Speed",
-    "default_prompt": "",
-    "default_prompt_negative": "",
-    "default_styles": [
-        "Fooocus V2",
-        "Fooocus Enhance",
-        "Fooocus Sharp"
-    ],
-    "default_aspect_ratio": "1152*896",
-    "default_overwrite_step": -1,
-    "checkpoint_downloads": {
-        "FluentlyXL-v4.safetensors": "https://huggingface.co/fluently/Fluently-XL-v4/resolve/main/FluentlyXL-v4.safetensors"
-    },
-    "embeddings_downloads": {},
-    "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
-    },
-    "previous_default_models": [
-        "FluentlyXL-v3.safetensors",
-        "FluentlyXL-v2.safetensors",
-        "FluentlyXL-v1.safetensors"
-    ]
+  "default_model": "CyberRealisticPony_V11.0_FP16.safetensors",
+  "default_refiner": "None",
+  "default_refiner_switch": 0.5,
+  "default_loras": [
+    ["sd_xl_offset_example-lora_1.0.safetensors", 0.1],
+    ["princess_xl_v2.safetensors", 1.0],
+    ["LoRA_SDXL1.0_IncaseStyle_31_Pony.safetensors", 1.0],
+    ["None", 1.0],
+    ["None", 1.0]
+  ],
+  "default_cfg_scale": 5.0,
+  "default_sample_sharpness": 2.0,
+  "default_sampler": "dpmpp_2m_sde_gpu",
+  "default_scheduler": "karras",
+  "default_performance": "Speed",
+  "default_prompt": "score_9, score_8_up, score_7_up, ",
+  "default_prompt_negative": "",
+  "default_styles": ["Fooocus V2", "Fooocus Enhance", "Fooocus Sharp"],
+  "default_aspect_ratio": "896*1152",
+  "default_overwrite_step": -2,
+  "checkpoint_downloads": {
+    "CyberRealisticPony_V11.0_FP16.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V11.0_FP16.safetensors"
+  },
+  "embeddings_downloads": {},
+  "lora_downloads": {
+    "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
+    "princess_xl_v2.safetensors": "https://huggingface.co/sWizad/all-disney-princess-xl-lora-model-from-ralph-breaks-the-internet/resolve/main/princess_xl_v2.safetensors",
+    "LoRA_SDXL1.0_IncaseStyle_31_Pony.safetensors": "https://huggingface.co/nncyberpunk/LoRA_SDXL1.0_IncaseStyle_31_Pony/resolve/main/LoRA_SDXL1.0_IncaseStyle_31_Pony.safetensors"
+  },
+  "previous_default_models": [
+    "FluentlyXL-v3.safetensors",
+    "FluentlyXL-v2.safetensors",
+    "FluentlyXL-v1.safetensors"
+  ]
 }
